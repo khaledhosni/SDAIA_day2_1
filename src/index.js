@@ -6,11 +6,12 @@ import reportWebVitals from "./reportWebVitals";
 import UserComponent from "./ui/userpage/UserComponent";
 import DemoState from "./ui/statedemo/DemoState";
 import ConditionDemo from "./ui/conditional/ConditionDemo";
+import MyApp from "./ui/routerdemo/MyApp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <ConditionDemo />
+    <MyApp />
   </React.StrictMode>
 );
 
